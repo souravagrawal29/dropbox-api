@@ -13,10 +13,12 @@ Create a Dropbox App from the [Dropbox App Console](https://www.dropbox.com/deve
 
 Populate the following fields under existing file `dropbox.properties`:
 
-dropbox.clientId=  
-dropbox.clientSecret=  
-dropbox.redirectUrl=  
-dropbox.scope=  
+```properties
+dropbox.clientId=
+dropbox.clientSecret=
+dropbox.redirectUrl=
+dropbox.scope=
+```
 
 After populating the properties, run `mvn clean install`. This command should generate a jar named `dropbox-api.jar` under the target folder.
 
